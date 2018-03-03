@@ -1,11 +1,10 @@
-*** Z80 Assembler ***
+*** Z80 Assembler (1995) ***
 
 [ENG]
 This assembler is developed for assembling source files written on 
 the ZILOG Z80 assembler language. Full command set is supported. This 
 version has such restrictions as:
-- expressions are not supported, it means that the command ADD A,35+34
-  will not be recognized;
+- expressions are not supported, it means that the command ADD A,35+34 will not be recognised;
 - identifier length < 30 chars;
 - the number of identifiers < 300;
 
@@ -13,38 +12,38 @@ Using.
   asm_z80.exe file.asm
 Generated files:
   - file.lst - list file;
-  - file.map - lable table;
+  - file.map - label table;
   - file.bin - binary file;
 
-Copyrights. The author of this product is Hryshchenko Andrew 
+Copyrights. The author of this product is Andrew Grischenko 
 (vital@akcecc.kiev.ua). Using of this product is absolutely free. 
-Author is not responsible of any damage, both direct and inderect, 
+Author is not responsible of any damage, both direct and indirect, 
 that may cause using of this product. Source code modification is 
 free with the condition that modification author and purposes should 
 be noted in readme.txt
 
 [RUS]
-Ýòîò àññåìáëåð ïðåäíàçíà÷åí äëÿ àññåìáëèðîâàíèÿ èñõîäíûõ ôàéëîâ íà 
-ÿçûêå àññåìáëåðà ïðîöåññîðà Zilog Z80. Ïîääåðæèâàåòñÿ ïîëíûé íàáîð 
-êîìàíä. Äàííàÿ âåðñèÿ èìååò ñóùåñòâåííîå îãðàíè÷åíèå: 
-  - íå ïîääåðæèâàþòñÿ âûðàæåíèÿ, ò.å. êîìàíäà ADD A,35+45 íå áóäåò 
-    ðàñïîçíàíà êàê êîððåêòíàÿ;
-  - äëèíà èäåíòèôèêàòîðîâ < 32 ñèìâëîâ;
-  - êîëè÷åñòâî èäåíòèôèêàòîðîâ < 300;
+Ð­Ñ‚Ð¾Ñ‚ Ð°ÑÑÐµÐ¼Ð±Ð»ÐµÑ€ Ð¿Ñ€ÐµÐ´Ð½Ð°Ð·Ð½Ð°Ñ‡ÐµÐ½ Ð´Ð»Ñ Ð°ÑÑÐµÐ¼Ð±Ð»Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ Ð¸ÑÑ…Ð¾Ð´Ð½Ñ‹Ñ… Ñ„Ð°Ð¹Ð»Ð¾Ð² Ð½Ð° 
+ÑÐ·Ñ‹ÐºÐµ Ð°ÑÑÐµÐ¼Ð±Ð»ÐµÑ€Ð° Ð¿Ñ€Ð¾Ñ†ÐµÑÑÐ¾Ñ€Ð° Zilog Z80. ÐŸÐ¾Ð´Ð´ÐµÑ€Ð¶Ð¸Ð²Ð°ÐµÑ‚ÑÑ Ð¿Ð¾Ð»Ð½Ñ‹Ð¹ Ð½Ð°Ð±Ð¾Ñ€ 
+ÐºÐ¾Ð¼Ð°Ð½Ð´. Ð”Ð°Ð½Ð½Ð°Ñ Ð²ÐµÑ€ÑÐ¸Ñ Ð¸Ð¼ÐµÐµÑ‚ ÑÑƒÑ‰ÐµÑÑ‚Ð²ÐµÐ½Ð½Ð¾Ðµ Ð¾Ð³Ñ€Ð°Ð½Ð¸Ñ‡ÐµÐ½Ð¸Ðµ: 
+  - Ð½Ðµ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶Ð¸Ð²Ð°ÑŽÑ‚ÑÑ Ð²Ñ‹Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ, Ñ‚.Ðµ. ÐºÐ¾Ð¼Ð°Ð½Ð´Ð° ADD A,35 45 Ð½Ðµ Ð±ÑƒÐ´ÐµÑ‚ 
+    Ñ€Ð°ÑÐ¿Ð¾Ð·Ð½Ð°Ð½Ð° ÐºÐ°Ðº ÐºÐ¾Ñ€Ñ€ÐµÐºÑ‚Ð½Ð°Ñ;
+  - Ð´Ð»Ð¸Ð½Ð° Ð¸Ð´ÐµÐ½Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ‚Ð¾Ñ€Ð¾Ð² < 32 ÑÐ¸Ð¼Ð²Ð»Ð¾Ð²;
+  - ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¸Ð´ÐµÐ½Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ‚Ð¾Ñ€Ð¾Ð² < 300;
 
-Èñïîëüçîâàíèå.
+Ð˜ÑÐ¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ð½Ð¸Ðµ.
   asm_z80.exe file.asm
-Ãåíåðèðóåìûå ôàéëû:
-  - file.lst - ëèñòèíã;
-  - file.map - òàáëèöà ìåòîê;
-  - file.bin - äâîè÷íûé ôàéë;
+Ð“ÐµÐ½ÐµÑ€Ð¸Ñ€ÑƒÐµÐ¼Ñ‹Ðµ Ñ„Ð°Ð¹Ð»Ñ‹:
+  - file.lst - Ð»Ð¸ÑÑ‚Ð¸Ð½Ð³;
+  - file.map - Ñ‚Ð°Ð±Ð»Ð¸Ñ†Ð° Ð¼ÐµÑ‚Ð¾Ðº;
+  - file.bin - Ð´Ð²Ð¾Ð¸Ñ‡Ð½Ñ‹Ð¹ Ñ„Ð°Ð¹Ð»;
 
-Àâòîðñêèå ïðàâà. Ðàçðàáîò÷èêîì äàííîãî ïðîäóêòà ÿâëÿåòñÿ 
-Ãðèùåíêî Àíäðåé (vital@akcecc.kiev.ua). Èñïîëüçîâàíèå äàííîãî ïðîäóêòà
-è èñõîäíûõ ôàéëîâ àáñîëþòíî ñâîáîäíîå. Àâòîð íå íåñåò íèêàêîé 
-îòâåòñòâåííîñòè çà âîçìîæíûé óùåðá, êàê ïðÿìîé òàê è êîñâåííûé, îò 
-èñïîëüçîâàíèÿ äàííîãî ïðîäóêòà. Ìîäèôèêàöèÿ èñõîäíûõ êîäîâ ñâîáîäíà 
-ïðè óñëîâèè óêàçàíèÿ â ñîïðîâîäèòåëüíîé çàïèñêå àâòîðà è öåëè
-ìîäèôèêàöèè.
+ÐÐ²Ñ‚Ð¾Ñ€ÑÐºÐ¸Ðµ Ð¿Ñ€Ð°Ð²Ð°. Ð Ð°Ð·Ñ€Ð°Ð±Ð¾Ñ‚Ñ‡Ð¸ÐºÐ¾Ð¼ Ð´Ð°Ð½Ð½Ð¾Ð³Ð¾ Ð¿Ñ€Ð¾Ð´ÑƒÐºÑ‚Ð° ÑÐ²Ð»ÑÐµÑ‚ÑÑ 
+Ð“Ñ€Ð¸Ñ‰ÐµÐ½ÐºÐ¾ ÐÐ½Ð´Ñ€ÐµÐ¹ (vital@akcecc.kiev.ua). Ð˜ÑÐ¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð´Ð°Ð½Ð½Ð¾Ð³Ð¾ Ð¿Ñ€Ð¾Ð´ÑƒÐºÑ‚Ð°
+Ð¸ Ð¸ÑÑ…Ð¾Ð´Ð½Ñ‹Ñ… Ñ„Ð°Ð¹Ð»Ð¾Ð² Ð°Ð±ÑÐ¾Ð»ÑŽÑ‚Ð½Ð¾ ÑÐ²Ð¾Ð±Ð¾Ð´Ð½Ð¾Ðµ. ÐÐ²Ñ‚Ð¾Ñ€ Ð½Ðµ Ð½ÐµÑÐµÑ‚ Ð½Ð¸ÐºÐ°ÐºÐ¾Ð¹ 
+Ð¾Ñ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÐµÐ½Ð½Ð¾ÑÑ‚Ð¸ Ð·Ð° Ð²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ñ‹Ð¹ ÑƒÑ‰ÐµÑ€Ð±, ÐºÐ°Ðº Ð¿Ñ€ÑÐ¼Ð¾Ð¹ Ñ‚Ð°Ðº Ð¸ ÐºÐ¾ÑÐ²ÐµÐ½Ð½Ñ‹Ð¹, Ð¾Ñ‚ 
+Ð¸ÑÐ¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ð½Ð¸Ñ Ð´Ð°Ð½Ð½Ð¾Ð³Ð¾ Ð¿Ñ€Ð¾Ð´ÑƒÐºÑ‚Ð°. ÐœÐ¾Ð´Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ñ Ð¸ÑÑ…Ð¾Ð´Ð½Ñ‹Ñ… ÐºÐ¾Ð´Ð¾Ð² ÑÐ²Ð¾Ð±Ð¾Ð´Ð½Ð° 
+Ð¿Ñ€Ð¸ ÑƒÑÐ»Ð¾Ð²Ð¸Ð¸ ÑƒÐºÐ°Ð·Ð°Ð½Ð¸Ñ Ð² ÑÐ¾Ð¿Ñ€Ð¾Ð²Ð¾Ð´Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ð¹ Ð·Ð°Ð¿Ð¸ÑÐºÐµ Ð°Ð²Ñ‚Ð¾Ñ€Ð° Ð¸ Ñ†ÐµÐ»Ð¸
+Ð¼Ð¾Ð´Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ð¸.
 
 *** END ***
